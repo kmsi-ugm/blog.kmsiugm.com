@@ -7,6 +7,14 @@
   padding: 1.5em !important;
 }
 
+/* custom background dark mode */
+.dark-mode {
+  background-color: rgb(17 24 39) !important;
+}
+.dark-mode .notion-app{
+  background-color: rgb(17 24 39) !important;
+}
+
 .dark-mode .notion-code {
   background-color: rgba(17, 24, 39, 1);
   border-color: rgba(55, 65, 81, 1);

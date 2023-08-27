@@ -3,6 +3,8 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 import { IconContext } from '@react-icons/all-files'
 
+
+
 export default class MyDocument extends Document {
   render() {
     return (
@@ -71,7 +73,8 @@ export default class MyDocument extends Document {
 `
               }}
             />
-            <Main />
+            <Main/>
+          
 
             <NextScript />
           </body>

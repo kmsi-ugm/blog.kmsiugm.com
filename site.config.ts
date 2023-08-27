@@ -9,9 +9,9 @@ export default siteConfig({
   rootNotionSpaceId: '',
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
+  name: 'KMSI UGM',
   domain: 'localhost:3000',
-  author: 'Travis Fischer',
+  author: 'KMSI UGM',
 
   // open graph metadata (optional)
   description: 'Personal site of Travis Fischer aka Transitive Bullshit',

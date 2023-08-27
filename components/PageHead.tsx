@@ -80,6 +80,8 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+      {/* add tailwind css */}
+      <script src="https://cdn.tailwindcss.com"></script>
     </Head>
   )
 }
