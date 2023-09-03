@@ -3,8 +3,6 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 import { IconContext } from '@react-icons/all-files'
 
-
-
 export default class MyDocument extends Document {
   render() {
     return (
@@ -30,6 +28,8 @@ export default class MyDocument extends Document {
               href='/favicon-96x96.png'
             />
             <link rel='manifest' href='/manifest.json' />
+
+            <script src='https://cdn.tailwindcss.com'></script>
           </Head>
 
           <body>
@@ -73,8 +73,7 @@ export default class MyDocument extends Document {
 `
               }}
             />
-            <Main/>
-          
+            <Main />
 
             <NextScript />
           </body>
