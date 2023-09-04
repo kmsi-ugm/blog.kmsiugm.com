@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'KMSI UGM',
-  domain: 'localhost:3000',
+  domain: 'kmsiugm.com',
   author: 'KMSI UGM',
 
   // open graph metadata (optional)
