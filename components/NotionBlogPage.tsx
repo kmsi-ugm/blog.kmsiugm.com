@@ -27,7 +27,7 @@ import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
 import { Loading } from './Loading'
-import { NotionPageHeader } from './NotionPageHeader'
+import { NotionBlogPageHeader } from './NotionBlogPageHeader'
 import { Page404 } from './Page404'
 import { PageHead } from './PageHead'
 import styles from './styles.module.css'
@@ -159,7 +159,7 @@ const HeroHeader = dynamic<{ className?: string }>(
   { ssr: false }
 )
 
-export const NotionPage: React.FC<types.PageProps> = ({
+export const NotionBlogPage: React.FC<types.PageProps> = ({
   site,
   recordMap,
   error,
@@ -178,7 +178,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
       Collection,
       Modal,
       Tweet,
-      Header: NotionPageHeader,
+      Header: NotionBlogPageHeader,
       propertyLastEditedTimeValue,
       propertyTextValue,
       propertyDateValue,
