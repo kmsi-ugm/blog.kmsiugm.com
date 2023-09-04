@@ -153,19 +153,14 @@ export const NotionBlogPageHeader: React.FC<{
       <div className='notion-nav-header'>
         {/* <Breadcrumbs block={block} rootOnly={true} /> */}
 
-        <div className='notion-nav-header-rhs breadcrumbs flex'>
+        <div className='notion-nav-header-rhs breadcrumbs flex items-center'>
           <ul className='justify-center items-center flex'>
             <li className='mx-2'>
-              {/* <Link href='https://kmsiugm.com' passHref>
-                <span className='hover:text-teal-400 dark:hover:text-teal-500'>
-                  Beranda
-                </span>
-              </Link> */}
               <button
-                className='nav-button btn-no-style'
                 // eslint-disable-next-line react/no-unknown-property
                 typeof='button'
                 onClick={() => router.back()}
+                className='mt-[5px]'
               >
                 <span className='hover:text-teal-400 dark:hover:text-teal-500 flex items-center'>
                   <svg
@@ -183,6 +178,17 @@ export const NotionBlogPageHeader: React.FC<{
                     />
                   </svg>
                   Kembali
+                </span>
+              </button>
+            </li>
+            <li className='mx-2'>
+              <button
+                // eslint-disable-next-line react/no-unknown-property
+                typeof='button'
+                onClick={() => router.push('/')}
+              >
+                <span className='hover:text-teal-400 dark:hover:text-teal-500'>
+                  Blog
                 </span>
               </button>
             </li>
